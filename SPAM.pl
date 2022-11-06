@@ -5,7 +5,7 @@
 use strict;
 use Net::SMTP::TLS;
   
-die("$0 <kkaka> <Joao1219H> <presente2707@gmail.com> <engenharia> <meu pau>") if(@ARGV != 5);
+die("$0 <kkaka> <pass> <presente2707@gmail.com> <engenharia> <meu pau>") if(@ARGV != 5);
 my($user,$pass,$email,$eng,$assunto) = @ARGV;
 my $smtp = new Net::SMTP::TLS(
  'smtp.gmail.com',
